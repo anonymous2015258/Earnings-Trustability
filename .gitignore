@@ -1,0 +1,23 @@
+# Environment — contains API keys
+.env
+
+# Database (large, regenerable via seed_backlog.py)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Generated outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# OS
+.DS_Store
