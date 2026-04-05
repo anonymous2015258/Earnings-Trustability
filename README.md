@@ -115,15 +115,6 @@ python scripts/run_backtest.py
 
 The backtest covers 25 tickers across 6 sectors (semiconductors, software/cloud, consumer tech, financials, healthcare, consumer/retail, energy, industrial), producing ~163 data points. The chart is saved to `outputs/backtest_results.png`.
 
-## Research lineage
-
-This project builds on:
-
-- **AAAI 2026**: "Perturb your Data: Paraphrase-Guided Training Data Watermarking" (Shetty, Haque et al.) — the claim-level text decomposition methodology for isolating specific forward-looking statements from surrounding narrative.
-
-- **NAACL-W 2025**: "Towards Effectively Leveraging Execution Traces for Program Repair with Code LLMs" (Haque\*, Babkin\* et al.) — the temporal verification paradigm: verifying prior-state claims against new observations, analogous to checking whether a promised code behavior actually manifests in execution traces.
-
-**Academic grounding**: Wei & Zhang (2022, *Management Science*) demonstrate that trust modulates earnings response coefficients — higher-trusted management teams generate larger market reactions to the same EPS surprise. This project operationalizes trust as a data-driven, company-specific, time-varying credibility score derived from verifiable delivery history.
 
 ## Project structure
 
